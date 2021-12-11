@@ -1,0 +1,44 @@
+/* Avoid page breaks inside the most common attributes, especially for exports (i.e. PDF) */
+td,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+table,
+thead,
+tr,
+th,
+tbody,
+tfoot,
+td,
+p,
+ul,
+ol,
+li,
+details,
+summary,
+form {
+    page-break-inside: avoid;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Links */
+
+.alert {
+    padding: 20px;
+    background-color: #2196f3;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.alertwarning {
+    padding: 20px;
+    background-color: #ff9800;
+    color: white;
+    margin-bottom: 15px;
+}
